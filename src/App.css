@@ -36,3 +36,145 @@
     transform: rotate(360deg);
   }
 }
+.pokedex {
+  height: 90vh;
+  width: 80vh;
+  background-color: crimson;
+  border-radius: 1em;
+}
+
+.silverCircle {
+  background-color: silver;
+  height: 4em;
+  width: 4em;
+  border-radius: 100%;
+  position: relative;
+  top: 1em;
+  left: 1em;
+  border: #282c34 solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blueCircle {
+  background-color: skyblue;
+  height: 3em;
+  width: 3em;
+  border-radius: 100%;
+  border: #282c34 solid;
+}
+.blueCircleHighlight{
+  background-color: rgba(255, 255, 255, 0.527);
+  height: 1.2em;
+  width: 1.2em;
+  position: relative;
+  top: 10px;
+  left: 12px;
+  border-radius: 100%;
+}
+.threeCircles {
+  position: relative;
+  bottom: 3em;
+  left: 6em;
+  display: flex;
+  
+}
+.circle1 {
+  height: 1em;
+  width: 1em;
+  background-color: red;
+  border: #282c34 solid;
+  border-radius: 100%;
+  margin-left: .5em;
+}
+.highlight1{
+  position: relative;
+  top: 2px;
+  left: 3px;
+  height: .5em;
+  width: .5em;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.637) ;
+}
+.circle2 {
+  height: 1em;
+  width: 1em;
+  background-color: gold;
+  border: #282c34 solid;
+  border-radius: 100%;
+  margin-left: .5em;
+}
+.highlight2{
+  position: relative;
+  top: 2px;
+  left: 3px;
+  height: .5em;
+  width: .5em;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.637) ;
+}
+.circle3 {
+  height: 1em;
+  width: 1em;
+  background-color: green;
+  border: #282c34 solid;
+  border-radius: 100%;
+  margin-left: .5em;
+}
+.highlight3{
+  position: relative;
+  top: 2px;
+  left: 3px;
+  height: .5em;
+  width: .5em;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.637) ;
+}
+
+.innerBorder {
+  position: relative;
+  left: 1em;
+  top: 1em;
+  height: 72%;
+  width: 90%;
+  border: #282c34 solid;
+  border-left: #282c34 solid;
+  border-bottom: #282c34 solid;
+  border-right: #282c34 solid;
+  border-radius: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.screen{
+  background-color: white;
+  width: 98%;
+  height: auto;
+  border-radius: .8em;
+  margin: .1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+}
+.screen::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+.pokemon{
+  color: #282c34;
+  flex-wrap: wrap;
+  margin: .1em;
+  border-radius: .2em;
+  width: 5.5em;
+  display: flex;
+  justify-content: center;
+}
+.pokemonImg{
+  height: 75%;
+  width: 75%;
+  border-radius: 100%;
+}
+
